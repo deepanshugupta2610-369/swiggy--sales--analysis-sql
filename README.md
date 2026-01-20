@@ -59,7 +59,7 @@ Implemented:
 **Dimension Tables:**  
 - `dim_customer`  
 - `dim_restaurant`  
-- `dim_cuisine`  
+- `dim_category`  
 - `dim_location`  
 - `dim_date`  
 
@@ -95,7 +95,7 @@ This project includes deep analytical breakdowns such as:
 ### 🍽️ Restaurant & Cuisine Performance  
 - Top restaurants by order volume  
 - Most profitable restaurants  
-- Cuisine-wise order & rating distribution  
+- Category-wise order & rating distribution  
 
 <br>
 
