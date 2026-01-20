@@ -24,7 +24,7 @@ WHERE
     OR Location = '' OR Category = '' OR Dish_Name = '';
 
 
---Incorrect Data Types
+--Finding_duplicates
 SELECT 
     State, City, Order_Date, Restaurant_Name, Location,
     Category, Dish_Name, Price_INR, Rating, Rating_Count,
@@ -279,7 +279,7 @@ GROUP BY d.year
 ORDER BY d.year;
 
 
---Orders by Day of Week (Mon–Sun)
+--Orders by Day of Week (Monâ€“Sun)
 SELECT 
     DATENAME(WEEKDAY, d.full_date) AS day_name,
     COUNT(*) AS total_orders
@@ -364,7 +364,7 @@ ORDER BY total_orders DESC;
 
 
 
---Rating Count Distribution (1–5)
+--Rating Count Distribution (1â€“5)
 SELECT 
     rating,
     COUNT(*) AS rating_count
@@ -382,3 +382,4 @@ FROM fact_swiggy_orders f
 JOIN dim_category c ON f.category_id = c.category_id
 GROUP BY c.category
 ORDER BY total_orders DESC;
+
