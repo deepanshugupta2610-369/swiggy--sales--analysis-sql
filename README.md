@@ -54,7 +54,7 @@ Implemented:
 
 ## 🧩 Schema Design (Star Model)  
 **Fact Table:**  
-- `fact_orders` (captures transactional/order-level activity)
+- `fact_swiggy_orders` (captures transactional/order-level activity)
 
 **Dimension Tables:**  
 - `dim_restaurant`  
