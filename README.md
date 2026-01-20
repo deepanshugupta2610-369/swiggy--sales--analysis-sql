@@ -57,11 +57,11 @@ Implemented:
 - `fact_orders` (captures transactional/order-level activity)
 
 **Dimension Tables:**  
-- `dim_customer`  
 - `dim_restaurant`  
 - `dim_category`  
 - `dim_location`  
-- `dim_date`  
+- `dim_date`
+- `dim_dish`
 
 <br>
 
