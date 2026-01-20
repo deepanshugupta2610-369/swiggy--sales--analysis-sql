@@ -1,50 +1,173 @@
-# swiggy--sales--analysis-sql
+# 🍔 Swiggy Sales Analysis using SQL & Dimensional Modelling  
 
-Project Title
-<br>
-Swiggy Sales Analysis using SQL & Dimensional Modelling
-
-
-Business Objective
-<br>
-Analyze food delivery sales data to uncover revenue drivers, demand patterns, cuisine performance, and customer spending behavior using enterprise-grade SQL analytics.
-
-
-Key Business Questions
-<br>
-1. Which cities and states drive maximum revenue?
-2. What cuisines and restaurants dominate order volume?
-3. How does demand vary across time (month, quarter, weekday)?
-4. What price bands contribute most to orders?
-5. How do ratings correlate with order frequency?
+## 📌 Project Overview  
+This project performs an **enterprise-grade SQL Sales Analysis** on Swiggy-like food delivery data using a **Dimensional Modelling approach (Star Schema)**.  
+The goal is to uncover key business drivers behind **revenue growth, demand patterns, cuisine performance, restaurant dominance, and customer spending behavior**.  
 
 <br>
-Data Engineering & Modeling
-<br>
-1. Data cleaning (nulls, blanks, duplicates)
-2. Star schema design (Fact + 5 Dimensions)
-3. Surrogate keys & foreign key relationships
 
-
-Core KPIs
-<br>
-1. Total Orders
-2. Total Revenue (INR Million)
-3. Average Dish Price
-4. Average Rating
+## 🎯 Business Objective  
+Analyze food delivery sales data to uncover:  
+- **Revenue drivers** across cities/states  
+- **Demand patterns** over time (month/quarter/weekday)  
+- **Cuisine & restaurant dominance** in order volume  
+- **Customer spending segments (price bands)**  
+- Relationship between **ratings and order behavior**  
 
 <br>
-Advanced Analysis
+
+## ❓ Key Business Questions Answered  
+✅ Which **cities and states** drive maximum revenue?  
+✅ What **cuisines and restaurants** dominate order volume?  
+✅ How does demand vary across time (**Month / Quarter / Weekday**) ?  
+✅ What **price bands** contribute most to orders?  
+✅ How do **ratings correlate** with order frequency?  
+
 <br>
-Time-series trends (Monthly / Quarterly / Yearly)
-Location performance (State & City level)
-Restaurant & cuisine performance
-Customer spending buckets
-Rating distribution & cuisine quality analysis
 
-Skills Demonstrated
+## 🏗️ Data Engineering & Modelling Approach  
+This project follows a structured, real-world data pipeline approach:
 
-SQL (CTEs, Window Functions, Joins)
-Dimensional Modelling (Star Schema)
-Business KPI design
-Analytical storytelling
+### 1️⃣ Data Cleaning & Preparation  
+Handled:  
+- Null values & blanks  
+- Duplicates removal  
+- Standardization of categorical columns  
+- Type conversions & constraints  
+
+<br>
+
+### 2️⃣ Dimensional Modelling (Star Schema)  
+Designed a **Star Schema** for scalable analytics:  
+- 1 Fact Table  
+- 5 Dimension Tables  
+
+<br>
+
+### 3️⃣ Keys & Relationships  
+Implemented:  
+- **Surrogate Keys** for all dimensions  
+- **Foreign Key relationships** for fact-dimension linkage  
+- Strong integrity for analytical querying  
+
+<br>
+
+## 🧩 Schema Design (Star Model)  
+**Fact Table:**  
+- `fact_orders` (captures transactional/order-level activity)
+
+**Dimension Tables:**  
+- `dim_customer`  
+- `dim_restaurant`  
+- `dim_cuisine`  
+- `dim_location`  
+- `dim_date`  
+
+<br>
+
+## 📊 Core KPIs Built  
+The project tracks the following business KPIs:
+
+- **Total Orders**  
+- **Total Revenue (INR Million)**  
+- **Average Dish Price**  
+- **Average Rating**  
+
+<br>
+
+## 🔍 Advanced Analysis Performed  
+This project includes deep analytical breakdowns such as:
+
+### 📈 Time-Series Trend Analysis  
+- Monthly Revenue & Orders trend  
+- Quarterly growth patterns  
+- Yearly performance comparison  
+
+<br>
+
+### 🌍 Location Performance Analytics  
+- Revenue contribution by **State**  
+- Top-performing **Cities**  
+- Demand hotspot mapping  
+
+<br>
+
+### 🍽️ Restaurant & Cuisine Performance  
+- Top restaurants by order volume  
+- Most profitable restaurants  
+- Cuisine-wise order & rating distribution  
+
+<br>
+
+### 💳 Customer Spending Buckets  
+Customer segmentation based on dish/order value:  
+- Low spenders  
+- Mid spenders  
+- High spenders  
+- Premium customers  
+
+<br>
+
+### ⭐ Rating & Quality Correlation  
+- Rating distribution analysis  
+- Cuisine quality mapping  
+- Relationship between **high ratings vs repeat order frequency**  
+
+<br>
+
+## 🛠️ Skills Demonstrated  
+✅ **SQL Analytics**  
+- CTEs  
+- Window Functions  
+- Joins  
+- Aggregations  
+- Case When logic  
+- KPI computations  
+
+<br>
+
+✅ **Dimensional Modelling**  
+- Star Schema design  
+- Surrogate key creation  
+- Fact-dimension mapping  
+- Data warehouse mindset  
+
+<br>
+
+✅ **Business Thinking**  
+- KPI design & definition  
+- Revenue insights  
+- Demand & customer behavior analytics  
+- Analytical storytelling  
+
+<br>
+
+## 📂 Project Deliverables  
+This repository contains:  
+- SQL scripts for cleaning & transformations  
+- Dimensional schema creation scripts  
+- KPI queries  
+- Advanced analytical queries (time-series, rating correlation, segmentation)  
+- Documentation / Notes  
+
+<br>
+
+## 🚀 Outcome / Impact  
+This analysis enables business stakeholders to:  
+- Identify **revenue-dominant geographies**  
+- Scale high-performing cuisines & restaurants  
+- Optimize **pricing strategy via price bands**  
+- Predict demand based on seasonality/weekdays  
+- Improve quality by linking **ratings with frequency & cuisine performance**  
+
+<br>
+
+## 🧠 Author  
+**Deepanshu Gupta**  
+📌 Data Analytics | SQL | Business Intelligence | Dimensional Modelling  
+
+<br>
+
+---  
+⭐ If you found this project insightful, consider giving it a **star** to support the work.  
+
