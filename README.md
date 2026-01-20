@@ -165,9 +165,9 @@ This analysis enables business stakeholders to:
 ## 🧠 Author  
 **Deepanshu Gupta**  
 📌 Data Analytics | SQL | Business Intelligence | Dimensional Modelling  
+Linkedin - https://www.linkedin.com/in/deepanshu-gupta-3ab3861b8/
 
 <br>
 
----  
-⭐ If you found this project insightful, consider giving it a **star** to support the work.  
+
 
